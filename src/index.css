@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+body{
+    overflow-x: hidden;
+}
+
+.banner{
+  background: linear-gradient(228.48deg,#f2ec3b 20.3%,#80f9c0 96.91%);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 110vh;
+
+}
+
+.banner h1 {
+    font-size: 5.5rem;
+    color: #000;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10pc;
+    padding-right: 42pc;
+}
+
+
+.banner p {
+       font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 20px;
+    margin-left: -41pc;
+    font-weight: 600;
+}
+
+.navbar {
+    background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+    height: 77px;
+}
+
+
+.navbar-default {
+
+  background: transparent;
+    margin-left: -51pc;
+    font-size: 19px;
+    margin-top: 7px;
+}
+
+.navbar-default a{
+    color: #000;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #f2ec3b;
+    color: #000;
+    padding: 6px 22px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 15pc;
+   
+}
+
+.b-img{
+
+    margin-left: 816px;
+    margin-top: -32pc;
+    margin-bottom: 23pc;
+    width: 39%;
+
+}
+.image{
+    margin-left: 38pc;
+    margin-top: -58pc;
+    margin-bottom: 23pc;
+    width: 53%;
+}
+
+
+.Transform{
+ 
+    background: #000;
+    margin-top: -17px;
+    color: white;
+    padding: 20px;
+  height: 150vh;
+}
+
+.Transform h1 {
+    font-size: 5.8rem;
+    /* margin-bottom: 20px; */
+    text-align: center;
+margin-top: 8pc;
+margin-left: 20pc;
+}

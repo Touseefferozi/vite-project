@@ -1,6 +1,6 @@
 import Toni from "../assets/Ellipse_7_uxz08y.png";
 import ImagesStyle from "./ImagesStyle";
-import Lanyard from './Reactbit/Lanyard/Lanyard'
+
 
 function Transform() {
   return (
@@ -31,7 +31,9 @@ function Transform() {
 
    
     <ImagesStyle/>
-<Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
+  
+  
+      
     </div>
   );
 }

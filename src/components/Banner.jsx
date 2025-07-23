@@ -3,11 +3,13 @@ import React from 'react';
 import Home from '../assets/home_i1wlpb.png';
 import Green from '../assets/GREENportalImp.new_1_3_3_jykcsl.png';
 // import Lanyard from '../Reactbits/Lanyard/Lanyard';
+// import Ballpit from '../Reactbits/Ballpit/Ballpit';
 
 
 
 function Banner () {
   return (  
+  <>
     <div className="banner">
     {/* <div className=" text-white p-4 text-center"> */}
       <h1 className="text-2xl font-bold">Cartoonize <br /> Yourself</h1>
@@ -20,6 +22,9 @@ function Banner () {
    <img  src={Green} alt="App Green" className="b-img image w-48 mx-auto" />
     </div>
     
+
+    
+    </>
     // </div>
   );
 }

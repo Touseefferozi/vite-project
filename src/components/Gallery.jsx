@@ -2,7 +2,7 @@ import CircularGallery from '../../Reatbits/CircularGallery/CircularGallery';
 
 function Gallery(props) {
   return (
-    <div className="bg-black text-white p-10 min-h-screen -mt-50">
+    <div className=" bg-black text-white p-10 min-h-screen -mt-50">
       <div style={{ height: '600px', position: 'relative' }}>
         <CircularGallery 
           bend={3} 
